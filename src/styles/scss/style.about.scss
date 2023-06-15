@@ -1,0 +1,236 @@
+body {
+    margin: 0px;
+    background-color:  #E5E5E5;
+    font-family:  Roboto;
+    font-style: normal;
+    }
+
+header {
+    width: 100%;
+    height: 48px;
+    background-color: #FFFD00;
+    margin-top: -20px;
+    }
+
+a {
+    text-decoration: none;
+    }
+
+.name {
+    display: flex;
+    position: relative;
+    padding: 11px 17vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    width: 93px;
+    }
+
+nav {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    }
+
+.navigator {
+    display: flex;
+    padding-right: 17vw;
+    width: 600px;
+    height: 48px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.search {
+    display: flex;
+    width: 17vw;
+    background: #FFFFFF;
+    box-shadow: inset 0px 2px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 29px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+      
+.loop {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    order: -1;
+}
+      
+.search-bar {
+    width: 100%;
+    height: 100%;
+    border: 0; 
+    font-size: 14px;
+        
+}
+
+.search-bar:focus {
+    outline: none;
+}
+      
+
+
+.link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #A102FF;
+}
+
+main {
+    margin: auto;
+    position: relative;
+    width: 1303px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.banner {
+    background: url(../../assets/img/image.png) center/cover ;
+    border-radius: 6px 6px 0px 0px;
+    width: 100%;
+    height: 468px;
+}
+
+.all-about {
+    position: relative;
+    display: flex;
+    background: linear-gradient(360deg, rgba(61, 0, 98, 0.6) 30.87%, rgba(94, 78, 78, 0) 100%), #61019A;
+    flex-direction: row;
+    width: 100%;
+    height: 503px;
+}
+
+.img-about {
+    position: relative;
+    width: 376px;
+    margin-left: 7.29vw;
+    margin-top: 5.93vh;
+}
+
+.about {
+    flex-direction: column;
+    justify-items: end;
+    width: 32.76vw;
+    margin-left: 58px;
+    margin-top: 50px;
+}
+
+.text-title {
+font-weight: 700;
+font-size: 34px;
+color: #fff;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #F7F7F7;
+}
+
+ul {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F7F7F7;
+    margin-top: 25px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.also {
+    display: flex;
+    background: #3D0062;
+    justify-content: center;
+    height: 503px;
+}
+
+.also-title {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-top: 53px;
+}
+
+.also-text {
+    display: inline-flex;
+    width: 1074px;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.also-block {
+    width: 328px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #F7F7F7;
+}
+
+
+.about-us {
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+
+.all-lorem {
+    padding-left: 59px;
+    padding-right: 51px;
+}
+
+.about-title {
+    padding-top: 78px;
+    margin-top: 38px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #232323;
+}
+
+.lorem {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #232323;
+    margin-bottom: 38px;
+}
+
+.img-abus {
+    margin-left: 59px;
+    border-radius: none;
+    padding-bottom: 183px;
+}
